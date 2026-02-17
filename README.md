@@ -4,13 +4,13 @@ A brief description of what your project does.
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Intelligent system to provide answers to your questions.
+- The app features a sleek modern user-interface.
+- There is an indivdual tab for each of the categories of questions that are featured in our app.
 
 ## Requirements
 
-- Python 3.7 or higher
+- Python 3.10 or higher
 
 ## Installation
 
