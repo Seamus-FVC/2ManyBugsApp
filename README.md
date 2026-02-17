@@ -11,6 +11,7 @@ A brief description of what your project does.
 ## Requirements
 
 - Python 3.10 or higher
+- 
 
 ## Installation
 
