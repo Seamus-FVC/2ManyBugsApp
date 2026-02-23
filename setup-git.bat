@@ -17,14 +17,18 @@ IF NOT EXIST ".git" (
 git remote remove origin 2>nul
 git remote add origin https://github.com/Seamus-FVC/2ManyBugsApp.git
 
-:: 4️⃣ Ask for commit message
+:: 4️⃣ Pull remote changes safely
+echo Pulling remote changes...
+git pull origin main --allow-unrelated-histories
+
+:: 5️⃣ Ask for commit message
 set /p msg=Enter commit message: 
 
-:: 5️⃣ Stage and commit changes
+:: 6️⃣ Stage and commit changes
 git add .
 git commit -m "%msg%"
 
-:: 6️⃣ Push to GitHub
+:: 7️⃣ Push to GitHub
 git branch -M main
 git push -u origin main
 
