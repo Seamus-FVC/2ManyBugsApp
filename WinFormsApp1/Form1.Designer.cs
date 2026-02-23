@@ -36,7 +36,7 @@
             // 
             borderTextBox1.BackColor = Color.Gray;
             borderTextBox1.BorderRadius = 15;
-            borderTextBox1.Location = new Point(270, 169);
+            borderTextBox1.Location = new Point(254, 199);
             borderTextBox1.Name = "borderTextBox1";
             borderTextBox1.Padding = new Padding(2);
             borderTextBox1.Size = new Size(222, 78);

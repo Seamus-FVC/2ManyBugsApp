@@ -14,7 +14,7 @@ namespace WinFormsApp1
     using System.Drawing.Drawing2D;
     public partial class BorderTextBox : UserControl
     {
-        public int BorderRadius { get; set; } = 15;
+        public int BorderRadius { get; set; } = 10;
 
         private GraphicsPath GetRoundedPath(Rectangle rect, int radius)
         {
